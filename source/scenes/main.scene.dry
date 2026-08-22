@@ -1894,7 +1894,7 @@ max-cards: 4
 
 {!<div class="scrollable-box">!}
 
-{!<p class="both">!}[? if year = 1928 and month = 1: It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the <span style="color: #750e0e;">Soviet Union</span> that might make genuine peace a reality. <br><br> Now, the task of <span style="color: #c00000;">Social Democracy</span> is to prepare for the next election. The <span style="color: #000000;">bourgeois</span>-<span style="color: #3E88B3;">right</span> government of Wilhelm Marx is unpopular, and we stand to gain. Perhaps the next government will have a <span style="color: #c00000;">socialist</span> majority. ?]{!</p>!}
+{!<p class="both">!}[? if year = 1928 and month = 1: It is a questionable time for American morality. The disease that is alcohol runs rampant in the streets, poisoning the national spirit, our children and our families. <br><br> The job of the Anti-Saloon League, founded 11 years ago, is to push for temperance wherever we can. Our popularity is increasing notably, and we are planning to introuce further local legislation to restrict saloons and their activities. Perhaps the next few years will see us propelled to a national stage.
 
 {!<p class="both">!}[? if year = 1928 and month = 2 : The current <span style="color: #000000;">bourgeois</span>-<span style="color: #3E88B3;">right</span> government has fallen. The next elections are slated for May of this year. ?]{!</p>!}
 
