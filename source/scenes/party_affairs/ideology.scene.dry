@@ -17,7 +17,7 @@ The <span style="color: #BD7E3B;">ASL</span> has traditionally held a narrow and
 - @class_struggle: Perhaps the struggle against moral decadence requires a more.. hands-on approach. Do we really have something to learn from "Hatchet Granny"?
 - @centrist: Our standard base of rural Protestants, focused only on the goal of restricting <span style="color: #964B00;">alcohol</span>, remains the clearest way to achieve our goals.
 - @labor: The urban section of America suffers from alcoholism the worst. We should try to make inroads among the working class, and even immigrants.
-- @reform: Following the <span style="color: #808080;">WCTU</span>, we should work for broader reform of the American system, and shift more attention to non-temperance issues.
+- @reform: Following the <span style="color: #D3D3D3;">WCTU</span>, we should work for broader reform of the American system, and shift more attention to non-temperance issues.
 - @socpat: Pursue the fusion of <span style='color: #c00000;'>socialism</span> and patriotism.
 - @easy_discard
 
@@ -41,7 +41,7 @@ if (Q.ideology && Q.ideology != "centrist") {
 go-to: changed if changed = 1
 on-departure: ideology = "centrist"; center_strength += 8; center_dissent -= 10; left_dissent -= 5; reformist_dissent -= 5
 
-The Centre of our party represents the standard grouping we have been known for. They are the most bipartisan, and have no major goals besides the restriction of alcohol.
+The centre of our party represents the standard grouping we have been known for. They are the most bipartisan, and have no major goals besides the restriction of alcohol.
 
 @labor
 on-arrival: {!
@@ -52,7 +52,7 @@ if (Q.ideology && Q.ideology != "labor") {
 go-to: changed if changed = 1
 on-departure: ideology = "labor"; labor_strength += 8; center_dissent += 5; wtb_support += 1; labor_dissent -= 5; kpd_relation -= 3
 
-Our labor wing criticises the reluctance of our organisation to expand into the urban working class.
+Our labor wing criticises the reluctance of our organisation to expand into the urban working class. Empowering them could greatly improve our standing. 
 
 @reform
 on-arrival: {!
@@ -63,7 +63,7 @@ if (Q.ideology && Q.ideology != "reformist") {
 go-to: changed if changed = 1
 on-departure: ideology = "reformist"; reformist_strength += 8; democratization += 1; reformist_dissent -= 5; left_dissent += 5; z_relation += 5; dvp_relation += 5; ddp_relation += 5; lvp_relation += 5; kpd_relation -= 8; moderate_plan_support += 1; dvp_left += 1; ddp_left += 0.5; ddp_cohesion += 0.5; lvp_left += 1
 
-The reformist wing sees the <span style="color: #BD7E3B;">Anti-Saloon League</span> as the modern and <span style="color: #FF0000;">dynamic</span> prototype for a broader mass movement.  
+The reformist wing sees the <span style="color: #BD7E3B;">Anti-Saloon League</span> as a modern and <span style="color: #FF0000;">dynamic</span> prototype, fit to evolve into a broader mass movement. They have even entertained the idea of turning the <span style="color: #BD7E3B;">League</span> into an independent political party of its own.
 
 @socpat
 view-if: social_patriot
