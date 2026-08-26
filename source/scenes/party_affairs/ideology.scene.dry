@@ -10,14 +10,14 @@ max-visits: 3
 
 = Questions of Ideology
 
-The <span style="color: #c00000;">**SPD**</span> is torn between many different ideological currents. What should be our primary ideological guidance for now?
+The <span style="color: #BD7E3B;">ASL</span> has traditionally held a narrow and specific ideological view. If we are to expand, perhaps we should reform our platform. What should be our primary ideological guidance for now?
 
 [? if ideology != 0 : We have previously chosen a [+ ideology +] ideology. Changing it will likely have drawbacks. ?]
 
-- @class_struggle: Class struggle and preparing the proletariat for the revolution are our primary goals.
-- @centrist: The Center <span style="color: #9B0000;">Marxism</span> of Karl Kautsky remains the best way to resolve our internal contradictions.
-- @labor: We should work with the trade unions to improve the lives of workers.
-- @reform: Following Eduard Bernstein, we should work for ethical <span style="color: #c00000;">socialism</span>, strengthen democracy, and expand the party's electorate.
+- @class_struggle: Perhaps the struggle against moral decadence requires a more.. hands-on approach. We may have something to learn from "Hatchet Granny".
+- @centrist: Our standard base of rural Protestants, focused only on the goal of restricting <span style="color: #964B00;">alcohol</span>, remains the clearest way to achieve our goals.
+- @labor: The urban section of America suffers from alcoholism the worst. We should try to make inroads among the working class, and even immigrants.
+- @reform: Following the <span style="color: #808080;">WCTU</span>, we should work for broader reform of the American system, and shift more attention to non-temperance issues.
 - @socpat: Pursue the fusion of <span style='color: #c00000;'>socialism</span> and patriotism.
 - @easy_discard
 
