@@ -22,7 +22,7 @@ go-to: start if achievement_game_completed; pls_player if not achievement_game_c
 
 @pls_player
 
-Read.
+Read!!!
 
 - @modinfo.infotext: Mod Info - Last Updated 2026/08/04
 
